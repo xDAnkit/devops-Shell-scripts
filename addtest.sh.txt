@@ -1,0 +1,15 @@
+echo 'Enter name'
+read varname
+echo Welcome $varname
+
+echo 'Enter numbers for addition'
+read -p 'First number: ' var1
+read -p 'Second number: ' var2
+sum=$(($var1 +$var2))
+
+echo Result $sum
+
+NOW=$(date +"%F")
+LOGFILE="log-$NOW"
+
+echo "Name: $varname \n First number: $var1 \n Second number: $var2 \n Result: $sum"   > $LOGFILE.txt
