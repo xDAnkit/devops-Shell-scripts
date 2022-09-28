@@ -5,3 +5,5 @@
 # Date : 10:00 PM 30 April 2020
 
 This is a DevOps repository for shell scripts
+
+creating merge conflicts
