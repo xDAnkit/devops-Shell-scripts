@@ -6,4 +6,4 @@
 
 This is a DevOps repository for shell scripts
 
-creating merge conflicts
+Updating something else
